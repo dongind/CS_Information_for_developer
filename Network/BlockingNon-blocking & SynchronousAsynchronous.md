@@ -42,21 +42,21 @@
 
 A함수가 B함수르 호출하면, 제어권을 A가 호출한 B 함수에 넘겨준다.
 
-![image-20230206231021674](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230206231021674.png)
+![image-20230206231021674](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230206231021674.png)
 
 **Non-Blocking(논블로킹)**
 
 A함수가 B함수를 호출해도 제어권은 그대로 자신이 가지고 있는다.
 
-![image-20230206231126959](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230206231126959.png)
+![image-20230206231126959](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230206231126959.png)
 
 ## 동기/비동기 + 블로킹/논블로킹
 
-![image-20230206234526418](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230206234526418.png)
+![image-20230206234526418](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230206234526418.png)
 
 ### 1. Sync-Blocking
 
-![image-20230206234844970](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230206234844970.png)
+![image-20230206234844970](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230206234844970.png)
 
 함수 A는 함수 B의 리턴값을 필요로 한다(**동기**)
 
@@ -64,7 +64,7 @@ A함수가 B함수를 호출해도 제어권은 그대로 자신이 가지고 �
 
 ### 2. Sync-Nonblocking
 
-![image-20230206235719971](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230206235719971.png)
+![image-20230206235719971](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230206235719971.png)
 
 A함수는 B 함수를 호출한다.
 
@@ -74,7 +74,7 @@ A함수는 B 함수를 호출한다.
 
 ### 3. Async-Nonblocking
 
-![image-20230207000038254](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230207000038254.png)
+![image-20230207000038254](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230207000038254.png)
 
 A 함수는 B 함수를 호출한다.
 
@@ -84,7 +84,7 @@ A 함수는 B 함수를 호출한다.
 
 ### 4. Async-blocking
 
-![image-20230207000250822](C:\Users\dongi\AppData\Roaming\Typora\typora-user-images\image-20230207000250822.png)
+![image-20230207000250822](C:\Users\dongi\OneDrive\문서\SSAFY\dongind_oct\CS스터디\CS_Information_for_developer\Network\assets\image-20230207000250822.png)
 
 A 함수는 B 함수의 리턴값에 신경쓰지 않고, 콜백함수로 보낸다(**비동기**)
 
